@@ -76,8 +76,48 @@ main {
 }
 .viewed {
 	color: #888888;
-	border: 1px solid;
-	border-color: #E6E6E6;
 	background-color: white;
 	
+}
+.tab__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	width: 100%;
+  }
+  
+  .tab {
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-bottom:1px solid #ccc; ;
+
+  }
+  .content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+  }
+  .content__title {
+	color: #121212;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 500;
+  }
+ .content__text {
+	color: #363636;
+	font-size: 14px;
+	line-height: 21px;
+ }
+ .link{
+	color: white;
+	background-color:#F46F17;
+	border-radius: 10px;
+	gap: 8px;
+	font-size: 14px;
+	height: 46px;
+	width: 100%;
+ }
+ .telegram {
+	width: 100%
 }
